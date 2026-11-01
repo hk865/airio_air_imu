@@ -1,0 +1,102 @@
+[
+  {
+    "run": "motion_body_rot",
+    "sequence": "MH_02_easy",
+    "samples": 3333,
+    "mean_speed_mps": 0.39441898465156555,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 1,
+    "checks": "passed_with_historical_warning",
+    "warning": "deduplicate equal timestamps before interpolation"
+  },
+  {
+    "run": "motion_body_rot",
+    "sequence": "MH_04_difficult",
+    "samples": 2195,
+    "mean_speed_mps": 0.8631746768951416,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  },
+  {
+    "run": "motion_body_rot",
+    "sequence": "V1_03_difficult",
+    "samples": 2326,
+    "mean_speed_mps": 0.6383945941925049,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  },
+  {
+    "run": "motion_body_rot",
+    "sequence": "V2_02_medium",
+    "samples": 2566,
+    "mean_speed_mps": 0.5504074692726135,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 1,
+    "checks": "passed_with_historical_warning",
+    "warning": "deduplicate equal timestamps before interpolation"
+  },
+  {
+    "run": "motion_body_rot",
+    "sequence": "V1_01_easy",
+    "samples": 3216,
+    "mean_speed_mps": 0.32092663645744324,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 1,
+    "checks": "passed_with_historical_warning",
+    "warning": "deduplicate equal timestamps before interpolation"
+  },
+  {
+    "run": "motion_body_freq_medium_rot",
+    "sequence": "MH_02_easy",
+    "samples": 29982,
+    "mean_speed_mps": 0.400003045797348,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  },
+  {
+    "run": "motion_body_freq_medium_rot",
+    "sequence": "MH_04_difficult",
+    "samples": 19743,
+    "mean_speed_mps": 0.8976640105247498,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  },
+  {
+    "run": "motion_body_freq_medium_rot",
+    "sequence": "V1_03_difficult",
+    "samples": 20922,
+    "mean_speed_mps": 0.7199593186378479,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  },
+  {
+    "run": "motion_body_freq_medium_rot",
+    "sequence": "V2_02_medium",
+    "samples": 23081,
+    "mean_speed_mps": 0.5386326313018799,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  },
+  {
+    "run": "motion_body_freq_medium_rot",
+    "sequence": "V1_01_easy",
+    "samples": 28931,
+    "mean_speed_mps": 0.36195212602615356,
+    "timestamp_dtype": "float64",
+    "duplicate_timestamps": 0,
+    "checks": "passed",
+    "warning": null
+  }
+]

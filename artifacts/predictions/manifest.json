@@ -1,0 +1,262 @@
+[
+  {
+    "run": "motion_body_rot",
+    "source_relative": "experiments/euroc/motion_body_rot/net_output.pickle",
+    "source_sha256": "843cf9630c94701a4d655dfa688933c748d1ef28125f3b8f3b4be3cbd0674b61",
+    "sequences": {
+      "MH_02_easy": {
+        "cov": {
+          "shape": [
+            1,
+            3333,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            3333,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            3333,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "MH_04_difficult": {
+        "cov": {
+          "shape": [
+            1,
+            2195,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            2195,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            2195,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "V1_03_difficult": {
+        "cov": {
+          "shape": [
+            1,
+            2326,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            2326,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            2326,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "V2_02_medium": {
+        "cov": {
+          "shape": [
+            1,
+            2566,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            2566,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            2566,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "V1_01_easy": {
+        "cov": {
+          "shape": [
+            1,
+            3216,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            3216,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            3216,
+            1
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    "conversion": "tensor.detach().cpu().numpy(); no resampling or dtype cast",
+    "attitude_source": "ground_truth",
+    "contains_raw_imu_or_ground_truth_states": false
+  },
+  {
+    "run": "motion_body_freq_medium_rot",
+    "source_relative": "experiments/euroc/motion_body_freq_medium_rot/net_output.pickle",
+    "source_sha256": "c2ff6789725223649ba41305ccf2e83aeddd91bbd18fa7a993496c1363b9f797",
+    "sequences": {
+      "MH_02_easy": {
+        "cov": {
+          "shape": [
+            1,
+            29982,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            29982,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            29982,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "MH_04_difficult": {
+        "cov": {
+          "shape": [
+            1,
+            19743,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            19743,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            19743,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "V1_03_difficult": {
+        "cov": {
+          "shape": [
+            1,
+            20922,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            20922,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            20922,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "V2_02_medium": {
+        "cov": {
+          "shape": [
+            1,
+            23081,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            23081,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            23081,
+            1
+          ],
+          "dtype": "float64"
+        }
+      },
+      "V1_01_easy": {
+        "cov": {
+          "shape": [
+            1,
+            28931,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "net_vel": {
+          "shape": [
+            28931,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "ts": {
+          "shape": [
+            28931,
+            1
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    "conversion": "tensor.detach().cpu().numpy(); no resampling or dtype cast",
+    "attitude_source": "ground_truth",
+    "contains_raw_imu_or_ground_truth_states": false
+  }
+]

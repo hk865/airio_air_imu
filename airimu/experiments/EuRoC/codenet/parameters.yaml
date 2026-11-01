@@ -1,0 +1,99 @@
+general: 
+  exp_dir: experiments/EuRoC/codenet
+dataset: 
+  train: 
+    mode: train
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 10
+        data_root: data/EuRoC
+        data_drive: 
+          - V1_02_medium
+          - V2_01_easy
+          - V2_03_difficult
+          - MH_03_medium
+          - MH_05_difficult
+          - MH_01_easy
+  test: 
+    mode: test
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 200
+        data_root: data/EuRoC
+        data_drive: 
+          - V1_02_medium
+          - V2_01_easy
+          - V2_03_difficult
+          - MH_03_medium
+          - MH_05_difficult
+          - MH_01_easy
+  eval: 
+    mode: evaluate
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 200
+        data_root: data/EuRoC
+        data_drive: 
+          - MH_02_easy
+          - MH_04_difficult
+          - V1_03_difficult
+          - V2_02_medium
+          - V1_01_easy
+  inference: 
+    mode: evaluate
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 1000
+        data_root: data/EuRoC
+        data_drive: 
+          - MH_02_easy
+          - MH_04_difficult
+          - V1_03_difficult
+          - V2_02_medium
+          - V1_01_easy
+          - V1_02_medium
+          - V2_01_easy
+          - V2_03_difficult
+          - MH_03_medium
+          - MH_05_difficult
+          - MH_01_easy
+  collate: padding9
+train: 
+  lr: 0.001
+  weight_decay: 0.0001
+  batch_size: 128
+  min_lr: 1e-05
+  max_epoches: 100
+  patience: 10
+  factor: 0.1
+  save_freq: 5
+  eval_freq: 1
+  cov_weight: 0.0001
+  sampling: 50
+  gtinit: true
+  eval_batch_size: 16
+  rot_weight: 1000.0
+  pos_weight: 100.0
+  vel_weight: 10.0
+  network: codenet
+  gtrot: true
+  propcov: true
+  covaug: true
+  loss: Huber_loss005
+  rotloss: Huber_loss005
+  precision: float32
+  seed: 42
+  quiet: true
+  num_workers: 0

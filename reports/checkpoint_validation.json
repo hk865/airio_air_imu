@@ -1,0 +1,147 @@
+[
+  {
+    "checkpoint": "airimu/experiments/EuRoC/codenet/ckpt/best_model.ckpt",
+    "config": "airimu/configs/exp/EuRoC/codenet.conf",
+    "bytes": 6282195,
+    "sha256": "231da7cbf377469c5a77a22f2a9db3a8c4757e02b7bf0298bf764165a51257c6",
+    "exit_code": 0,
+    "epoch": 99,
+    "network": "codenet",
+    "strict_load": true,
+    "synthetic_cpu_inference": "passed",
+    "output_shapes": [
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ]
+    ]
+  },
+  {
+    "checkpoint": "airimu/experiments/EuRoC/freqnet_phase_aware/ckpt/best_model.ckpt",
+    "config": "airimu/configs/exp/EuRoC/freqnet_phase_aware.conf",
+    "bytes": 6949226,
+    "sha256": "cf3d708068b3be7108ad4c2d052012e530a16735f1a393cd728bb7958a3eca34",
+    "exit_code": 0,
+    "epoch": 94,
+    "network": "freqnet_phase_aware",
+    "strict_load": true,
+    "synthetic_cpu_inference": "passed",
+    "output_shapes": [
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ]
+    ]
+  },
+  {
+    "checkpoint": "airimu/experiments/EuRoC/freqnet_no_phase/ckpt/best_model.ckpt",
+    "config": "airimu/configs/exp/EuRoC/freqnet_no_phase.conf",
+    "bytes": 6069946,
+    "sha256": "490e7bfbe542eaacb8a6bddcad71a52e276f72bd211756d008f193c030c835ed",
+    "exit_code": 0,
+    "epoch": 92,
+    "network": "freqnet_phase_aware",
+    "strict_load": true,
+    "synthetic_cpu_inference": "passed",
+    "output_shapes": [
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ],
+      [
+        1,
+        1000,
+        3
+      ]
+    ]
+  },
+  {
+    "checkpoint": "airio/experiments/euroc/motion_body_rot/ckpt/best_model.ckpt",
+    "config": "airio/configs/EuRoC/motion_body_rot.conf",
+    "bytes": 4448919,
+    "sha256": "c24923f82d09674f4b4a5dfec6606aaeeb980c6de03d00dc75ba3822c12d60ab",
+    "exit_code": 0,
+    "epoch": 81,
+    "network": "codewithrot",
+    "strict_load": true,
+    "synthetic_cpu_inference": "passed",
+    "output_shapes": [
+      [
+        1,
+        113,
+        3
+      ],
+      [
+        1,
+        113,
+        3
+      ]
+    ]
+  },
+  {
+    "checkpoint": "airio/experiments/euroc/motion_body_freq_medium_rot/ckpt/best_model.ckpt",
+    "config": "airio/configs/EuRoC/motion_body_freq_medium_rot.conf",
+    "bytes": 2972982,
+    "sha256": "461f585e92d3f46862e4978e2dec380243a30cddec5f4ee2b6e215009c8e88b9",
+    "exit_code": 0,
+    "epoch": 58,
+    "network": "freqmediumrot",
+    "strict_load": true,
+    "synthetic_cpu_inference": "passed",
+    "output_shapes": [
+      [
+        1,
+        1009,
+        3
+      ],
+      [
+        1,
+        1009,
+        3
+      ]
+    ]
+  }
+]

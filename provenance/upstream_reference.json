@@ -1,0 +1,13 @@
+{
+  "airimu": {
+    "source_repo": "cannnnxu/AirIMU",
+    "reference_commit": "b3399cda746f69798159472fa538d37c600a9f67",
+    "license_blob": "88ada62cbf8551231314ad527729830cf385a21a"
+  },
+  "airio": {
+    "source_repo": "Air-IO/Air-IO",
+    "reference_commit": "7214e8a6ddee95ca07a64f01f1fa3e2f8f60df73",
+    "license_blob": "668f4b4b7f74ef673e57dc0b57f0e7bbc7f3c757"
+  },
+  "historical_upstream_commit": null
+}

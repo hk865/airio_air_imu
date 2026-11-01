@@ -1,0 +1,95 @@
+general: 
+  exp_dir: experiments/euroc/motion_body_rot
+dataset: 
+  train: 
+    mode: train
+    coordinate: body_coord
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 3
+        data_root: ../airimu/data/EuRoC
+        data_drive: 
+          - V1_02_medium
+          - V2_03_difficult
+          - MH_05_difficult
+          - MH_01_easy
+          - V2_01_easy
+          - MH_03_medium
+    gravity: 9.81007
+  test: 
+    mode: test
+    coordinate: body_coord
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 10
+        data_root: ../airimu/data/EuRoC
+        data_drive: 
+          - V1_02_medium
+          - V2_03_difficult
+          - MH_05_difficult
+          - MH_01_easy
+          - V2_01_easy
+          - MH_03_medium
+    gravity: 9.81007
+  eval: 
+    mode: evaluate
+    coordinate: body_coord
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 200
+        data_root: ../airimu/data/EuRoC
+        data_drive: 
+          - MH_02_easy
+          - MH_04_difficult
+          - V1_03_difficult
+          - V2_02_medium
+          - V1_01_easy
+    gravity: 9.81007
+  inference: 
+    mode: infevaluate
+    coordinate: body_coord
+    rot_type: None
+    rot_path: PATH_TO_AIRIMU_NETOUTPUT
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 1000
+        data_root: ../airimu/data/EuRoC
+        data_drive: 
+          - MH_02_easy
+          - MH_04_difficult
+          - V1_03_difficult
+          - V2_02_medium
+          - V1_01_easy
+    gravity: 9.81007
+  collate: 
+    type: motion
+train: 
+  network: codewithrot
+  precision: float32
+  seed: 42
+  num_workers: 0
+  lr: 0.001
+  min_lr: 1e-05
+  batch_size: 128
+  max_epoches: 100
+  patience: 5
+  factor: 0.2
+  weight_decay: 0.0001
+  weight: 100.0
+  cov_weight: 0.0001
+  propcov: true
+  covaug: true
+  loss: Huber_loss005
+  rotloss: Huber_loss005
+  save_freq: 5
+  eval_freq: 1
+  quiet: true
+  gravity: 9.81007

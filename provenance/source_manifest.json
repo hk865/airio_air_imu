@@ -1,0 +1,1472 @@
+[
+  {
+    "path": "airimu/model/__init__.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/__init__.py",
+    "source_sha256": "3aded13d98e2310273d86bbaea57dcf8f998265f02151d5fd8be3a04416df1e4",
+    "delivery_sha256": "3aded13d98e2310273d86bbaea57dcf8f998265f02151d5fd8be3a04416df1e4",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/cnn.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/cnn.py",
+    "source_sha256": "a249a760da311873de40889ba992b23967ea22c14f1e469b5a09ff0ec0de692a",
+    "delivery_sha256": "a249a760da311873de40889ba992b23967ea22c14f1e469b5a09ff0ec0de692a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/code.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/code.py",
+    "source_sha256": "5b06e9931f05d3dcdf2b143ac5a0ef9e509940bfbe6887c7bf9bde18829d9a6a",
+    "delivery_sha256": "5b06e9931f05d3dcdf2b143ac5a0ef9e509940bfbe6887c7bf9bde18829d9a6a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/loss_func.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/loss_func.py",
+    "source_sha256": "9a7835b39d0c354d5af862f64e465a12b46e2483c696ea0d80a9a7390aecdbae",
+    "delivery_sha256": "9a7835b39d0c354d5af862f64e465a12b46e2483c696ea0d80a9a7390aecdbae",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/losses.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/losses.py",
+    "source_sha256": "f54e99608c711ebcf2282f08bc93e716db386a1531ec7cd290c3cb3241628170",
+    "delivery_sha256": "f54e99608c711ebcf2282f08bc93e716db386a1531ec7cd290c3cb3241628170",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_freq.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_freq.py",
+    "source_sha256": "6c966fd9b128a6886f7f1c039906435479d2f5d4d54e5b31ec7ab184fb72afe7",
+    "delivery_sha256": "6c966fd9b128a6886f7f1c039906435479d2f5d4d54e5b31ec7ab184fb72afe7",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_freq_fusion.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_freq_fusion.py",
+    "source_sha256": "bf872b007e70aeabc5086fd5bf7b6f5bba33f404a2102941a0c65acecbf9bf37",
+    "delivery_sha256": "bf872b007e70aeabc5086fd5bf7b6f5bba33f404a2102941a0c65acecbf9bf37",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_freq_improved.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_freq_improved.py",
+    "source_sha256": "7eb68dc818659b800e18cf58a170a9c61404eb197dfa28944bb1cd2c1e1cda78",
+    "delivery_sha256": "7eb68dc818659b800e18cf58a170a9c61404eb197dfa28944bb1cd2c1e1cda78",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_freq_improved2.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_freq_improved2.py",
+    "source_sha256": "167b29dd1be722e188372d25be7683a2284db4ae042e64e1d26efbb413fd30f0",
+    "delivery_sha256": "167b29dd1be722e188372d25be7683a2284db4ae042e64e1d26efbb413fd30f0",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_freq_wavelet_only.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_freq_wavelet_only.py",
+    "source_sha256": "ce09f7a50732787b04d3cbb25736017d87c08db8bd32ad69f380f6945b780bb8",
+    "delivery_sha256": "ce09f7a50732787b04d3cbb25736017d87c08db8bd32ad69f380f6945b780bb8",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_phase_aware.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_phase_aware.py",
+    "source_sha256": "fdcd96d27b6b91121e528c49ba043f2fc5ce243e056f5efae3cf0dfdb3362557",
+    "delivery_sha256": "fdcd96d27b6b91121e528c49ba043f2fc5ce243e056f5efae3cf0dfdb3362557",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_ronin_phase_aware.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_ronin_phase_aware.py",
+    "source_sha256": "c67f70757570f93b89be0d4f21e8d18591907c3e980089a4394c9ee82044d6a8",
+    "delivery_sha256": "c67f70757570f93b89be0d4f21e8d18591907c3e980089a4394c9ee82044d6a8",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/model_wavenet_v1.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/model_wavenet_v1.py",
+    "source_sha256": "9d522d128c0153a5ae3e6e100d428e40976cd1c87074171da2fa8f8287f2687b",
+    "delivery_sha256": "9d522d128c0153a5ae3e6e100d428e40976cd1c87074171da2fa8f8287f2687b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/net.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/net.py",
+    "source_sha256": "1b8faa0a84313f22221314c61af1267b606fc624a7a0a86cd52dbd22139ecb53",
+    "delivery_sha256": "1b8faa0a84313f22221314c61af1267b606fc624a7a0a86cd52dbd22139ecb53",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/model/others.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/model/others.py",
+    "source_sha256": "40b9e060a44a7126e344df6c9636df3cdaaa52dab393fb173f2c3c0ec7759983",
+    "delivery_sha256": "40b9e060a44a7126e344df6c9636df3cdaaa52dab393fb173f2c3c0ec7759983",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/BlackBirddataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/BlackBirddataset.py",
+    "source_sha256": "0ea8c91efacb4f266bf41a99c9c62a7460bf1756233084c1ce77d9522bc6a8d4",
+    "delivery_sha256": "0ea8c91efacb4f266bf41a99c9c62a7460bf1756233084c1ce77d9522bc6a8d4",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/EuRoCdataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/EuRoCdataset.py",
+    "source_sha256": "b294d973c465ba502b9528b3b0d2dc33cabd18e9982468355fc89ecf8fcad253",
+    "delivery_sha256": "b294d973c465ba502b9528b3b0d2dc33cabd18e9982468355fc89ecf8fcad253",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/KITTIdataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/KITTIdataset.py",
+    "source_sha256": "7143f72a767c9509be04205271b3d1ab33e655bd63c1c0960efb81a1101845cd",
+    "delivery_sha256": "7143f72a767c9509be04205271b3d1ab33e655bd63c1c0960efb81a1101845cd",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/RoNINdataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/RoNINdataset.py",
+    "source_sha256": "a2221835b6e5e6e3022c8407f1905f9361d2fc4c952187c1e960977ed5a40b62",
+    "delivery_sha256": "a2221835b6e5e6e3022c8407f1905f9361d2fc4c952187c1e960977ed5a40b62",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/SubTdataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/SubTdataset.py",
+    "source_sha256": "b8a8085f3fd20d7316a8f5fb13bb8dcea12054b46d1c10d5a7a0e1df6a4222ef",
+    "delivery_sha256": "b8a8085f3fd20d7316a8f5fb13bb8dcea12054b46d1c10d5a7a0e1df6a4222ef",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/TUMdataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/TUMdataset.py",
+    "source_sha256": "137f7d71e75514d4885902cb6d52019c53b1464831d5c79a145b7317e9f32e72",
+    "delivery_sha256": "137f7d71e75514d4885902cb6d52019c53b1464831d5c79a145b7317e9f32e72",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/__init__.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/__init__.py",
+    "source_sha256": "d6440e978551a352fe6c3f503b3854123d45cf7cd5b2660d2e6e107777eb307f",
+    "delivery_sha256": "d6440e978551a352fe6c3f503b3854123d45cf7cd5b2660d2e6e107777eb307f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/dataset.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/dataset.py",
+    "source_sha256": "1d55a36754b21626b7a3e94379d0c76755751657bd576010ce214f6c5a6d6917",
+    "delivery_sha256": "1d55a36754b21626b7a3e94379d0c76755751657bd576010ce214f6c5a6d6917",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/datasets/dataset_utils.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/datasets/dataset_utils.py",
+    "source_sha256": "bcb6317fb503d2812621b62dbb56005dad02f9acc8a4fc3813e0bf9f6b58e5da",
+    "delivery_sha256": "bcb6317fb503d2812621b62dbb56005dad02f9acc8a4fc3813e0bf9f6b58e5da",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/utils/__init__.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/utils/__init__.py",
+    "source_sha256": "a8d7d1217a43c6f249a7af511d56ab0cdef7385b97dbde5e884b4e55c21a0c0b",
+    "delivery_sha256": "a8d7d1217a43c6f249a7af511d56ab0cdef7385b97dbde5e884b4e55c21a0c0b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/utils/deferentiate_vel.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/utils/deferentiate_vel.py",
+    "source_sha256": "9735c2aedfee12996e8fea5235c55fc031dd82dc424f7929c49413c46451dc86",
+    "delivery_sha256": "9735c2aedfee12996e8fea5235c55fc031dd82dc424f7929c49413c46451dc86",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/utils/integrate.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/utils/integrate.py",
+    "source_sha256": "c41ce07d844a927eebd1ab5d2716246c65d51fdc8f8049e65b618cad99ad0f13",
+    "delivery_sha256": "c41ce07d844a927eebd1ab5d2716246c65d51fdc8f8049e65b618cad99ad0f13",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/utils/utils.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/utils/utils.py",
+    "source_sha256": "1cb1958f8613b918f2f02c0ef9e08fa6989b5ed70b94cb7b76cb6359b8f502c1",
+    "delivery_sha256": "1cb1958f8613b918f2f02c0ef9e08fa6989b5ed70b94cb7b76cb6359b8f502c1",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/utils/visualize.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/utils/visualize.py",
+    "source_sha256": "ced6af9a33b42baa2ba8c2df4f369256647cc96ae279112118346462487f978c",
+    "delivery_sha256": "ced6af9a33b42baa2ba8c2df4f369256647cc96ae279112118346462487f978c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/utils/visualize_state.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/utils/visualize_state.py",
+    "source_sha256": "d57598179d4cdc4a93962aa653ad4134abdd75cbb7808156f502dce63f7d868e",
+    "delivery_sha256": "d57598179d4cdc4a93962aa653ad4134abdd75cbb7808156f502dce63f7d868e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/tests/test_eskf_covariance_stability.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/tests/test_eskf_covariance_stability.py",
+    "source_sha256": "13ea9d2ca4a3401fdd9d98a1397c4fb3057b956d888c8e8161e8168a8f0f9e24",
+    "delivery_sha256": "13ea9d2ca4a3401fdd9d98a1397c4fb3057b956d888c8e8161e8168a8f0f9e24",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/tests/test_freqnet_improved_precision.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/tests/test_freqnet_improved_precision.py",
+    "source_sha256": "e2c087a0f59829709f9bbd254a6df717becd4401999f68da9e9e3097ec9dcd46",
+    "delivery_sha256": "e2c087a0f59829709f9bbd254a6df717becd4401999f68da9e9e3097ec9dcd46",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/tests/test_ronin_phase_aware.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/tests/test_ronin_phase_aware.py",
+    "source_sha256": "b702c03f88a675e262babaf634d9e17edf12e1dd98aefeb7230437ea8175fb76",
+    "delivery_sha256": "b702c03f88a675e262babaf634d9e17edf12e1dd98aefeb7230437ea8175fb76",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/BaselineEuroc/Euroc_1000.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/BaselineEuroc/Euroc_1000.conf",
+    "source_sha256": "71ce0531f397bd31d8d8b5270722e325180df28601164c145a61e10160d59754",
+    "delivery_sha256": "1bc7911210143e7f145638fb3a43efc03d45f45786933cdd332cb9273a570509",
+    "packaging_changed": true
+  },
+  {
+    "path": "airimu/configs/datasets/BlackBird/blackbird_1000.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/BlackBird/blackbird_1000.conf",
+    "source_sha256": "7583c8c26d3a301c567bf5bd20068b588637ab9b726e9c17059bf8c0f6c8a4a7",
+    "delivery_sha256": "7583c8c26d3a301c567bf5bd20068b588637ab9b726e9c17059bf8c0f6c8a4a7",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/KITTIDataset/KITTI26.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/KITTIDataset/KITTI26.conf",
+    "source_sha256": "bbd1f839207106d7f779274617c7f504729c28bc9137e68c7ca48952b6f39a98",
+    "delivery_sha256": "bbd1f839207106d7f779274617c7f504729c28bc9137e68c7ca48952b6f39a98",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/RoNIN/list_test_seen.txt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/RoNIN/list_test_seen.txt",
+    "source_sha256": "6ac8d883b56b8e4b2deddf7d09e1ee919fecc5f10aa7e2d8a094bc85b75a440b",
+    "delivery_sha256": "6ac8d883b56b8e4b2deddf7d09e1ee919fecc5f10aa7e2d8a094bc85b75a440b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/RoNIN/list_test_unseen.txt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/RoNIN/list_test_unseen.txt",
+    "source_sha256": "869531315a210ffabcd0bc426058b56ec8addd050cfb4bb47416b54318c0b2ad",
+    "delivery_sha256": "869531315a210ffabcd0bc426058b56ec8addd050cfb4bb47416b54318c0b2ad",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/RoNIN/list_train.txt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/RoNIN/list_train.txt",
+    "source_sha256": "f6b80b1d55ba1c47aad500b426eebb1c5e3c07150f70ba1be40bdf1a0ded9b1d",
+    "delivery_sha256": "f6b80b1d55ba1c47aad500b426eebb1c5e3c07150f70ba1be40bdf1a0ded9b1d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/RoNIN/list_validation.txt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/RoNIN/list_validation.txt",
+    "source_sha256": "5ce01465a9dc2514436fb3f359aea82265a6f62f2e2e702757d82c4d5104e7d2",
+    "delivery_sha256": "5ce01465a9dc2514436fb3f359aea82265a6f62f2e2e702757d82c4d5104e7d2",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/SubTDataset/SubT_UGV1_Final.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/SubTDataset/SubT_UGV1_Final.conf",
+    "source_sha256": "936375ac487a63a0865aa951bb783e56b006ff8434442d0edd536e27306e6ed1",
+    "delivery_sha256": "936375ac487a63a0865aa951bb783e56b006ff8434442d0edd536e27306e6ed1",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/SubTDataset/SubT_UGV1_Urban.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/SubTDataset/SubT_UGV1_Urban.conf",
+    "source_sha256": "0928eb19e337087206767eb8f4451b89289a5d034488875c3605029b30b33f6e",
+    "delivery_sha256": "0928eb19e337087206767eb8f4451b89289a5d034488875c3605029b30b33f6e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/SubTDataset/SubT_UGV2_Final.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/SubTDataset/SubT_UGV2_Final.conf",
+    "source_sha256": "090fac244d05f4cb4a9690007520e8eebe93120fb84965fc9339859d47c2a6aa",
+    "delivery_sha256": "090fac244d05f4cb4a9690007520e8eebe93120fb84965fc9339859d47c2a6aa",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/SubTDataset/SubT_UGV2_Urban.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/SubTDataset/SubT_UGV2_Urban.conf",
+    "source_sha256": "1ad4a337cec0d2d06170ff1ca18c6da5f00cd96737619dede4a813aa215fd9cd",
+    "delivery_sha256": "1ad4a337cec0d2d06170ff1ca18c6da5f00cd96737619dede4a813aa215fd9cd",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/SubTDataset/SubT_UGV3_Final.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/SubTDataset/SubT_UGV3_Final.conf",
+    "source_sha256": "28dfd6aa2439a6aa42ecf5184c8bf706ae41c24fdaf42d4ec7a8ef79a37c3b2d",
+    "delivery_sha256": "28dfd6aa2439a6aa42ecf5184c8bf706ae41c24fdaf42d4ec7a8ef79a37c3b2d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/datasets/TUMVI/room_1000.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/datasets/TUMVI/room_1000.conf",
+    "source_sha256": "17e488efa0390893ba770c23f1dab7f09f088c8df202ab88e3a8599294d0113d",
+    "delivery_sha256": "17e488efa0390893ba770c23f1dab7f09f088c8df202ab88e3a8599294d0113d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/BlackBird/freqnet_phase_aware.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/BlackBird/freqnet_phase_aware.conf",
+    "source_sha256": "2239ee242b0c4c6b980137fd1742c18fe03cf3ceefccc52c6245ccd24764c83b",
+    "delivery_sha256": "2239ee242b0c4c6b980137fd1742c18fe03cf3ceefccc52c6245ccd24764c83b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/BlackBird/freqnet_phase_aware_smoke.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/BlackBird/freqnet_phase_aware_smoke.conf",
+    "source_sha256": "ee348b2eb07d0611a06142010eb7f8149a7702cf9646e8206622f5d0623e6ec2",
+    "delivery_sha256": "ee348b2eb07d0611a06142010eb7f8149a7702cf9646e8206622f5d0623e6ec2",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/baseline.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/baseline.conf",
+    "source_sha256": "9dd7f3d9701511a6fa3c6eece4b99c37dfe0bd22b672bdc08c5761ba01f69f7e",
+    "delivery_sha256": "9dd7f3d9701511a6fa3c6eece4b99c37dfe0bd22b672bdc08c5761ba01f69f7e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/codenet.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/codenet.conf",
+    "source_sha256": "17ce5a5004e5178d2eff0ac5b667b2c049cdfd6df0a5728c7924ea916ae2b7af",
+    "delivery_sha256": "17ce5a5004e5178d2eff0ac5b667b2c049cdfd6df0a5728c7924ea916ae2b7af",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet.conf",
+    "source_sha256": "4b300a5c4adf49f8f31173e35a1b4c40a6dcdfcdd92a0dcb5c5ddaeb65e80dfa",
+    "delivery_sha256": "4b300a5c4adf49f8f31173e35a1b4c40a6dcdfcdd92a0dcb5c5ddaeb65e80dfa",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_fusion.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_fusion.conf",
+    "source_sha256": "3178fae6342aeb78185a0fd1fcf33b661be3d9cf4e40762cb7dd467bc2c1c018",
+    "delivery_sha256": "3178fae6342aeb78185a0fd1fcf33b661be3d9cf4e40762cb7dd467bc2c1c018",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved.conf",
+    "source_sha256": "897f502cd1bf794adb286b04384d895dc6857b4fea75acd66cc1f25731bc5c48",
+    "delivery_sha256": "897f502cd1bf794adb286b04384d895dc6857b4fea75acd66cc1f25731bc5c48",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved2.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved2.conf",
+    "source_sha256": "642d2fe8ed7f8d9214b0355e1e22ca7eaf3f3681c15226c86fad129251d337db",
+    "delivery_sha256": "642d2fe8ed7f8d9214b0355e1e22ca7eaf3f3681c15226c86fad129251d337db",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved_covcal.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved_covcal.conf",
+    "source_sha256": "a24a69c7fb5509e1cb278cc1a786c69c960f8acac6b010ff0d41315ec7139c84",
+    "delivery_sha256": "a24a69c7fb5509e1cb278cc1a786c69c960f8acac6b010ff0d41315ec7139c84",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved_fast.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved_fast.conf",
+    "source_sha256": "b787b5105fd4e6c598ce61ff10025123718af80ae3072dcf4f6a6ff9267b67dc",
+    "delivery_sha256": "b787b5105fd4e6c598ce61ff10025123718af80ae3072dcf4f6a6ff9267b67dc",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved_j3.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved_j3.conf",
+    "source_sha256": "6b923198929b1f13c7a16326db863464289acdb58ef9c09193db90e82d2f3cba",
+    "delivery_sha256": "6b923198929b1f13c7a16326db863464289acdb58ef9c09193db90e82d2f3cba",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved_parammatch.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved_parammatch.conf",
+    "source_sha256": "8e52b14e8a2484f681b39f44cf98c8c27d61e1cf49ef69d945580aa922a7071f",
+    "delivery_sha256": "8e52b14e8a2484f681b39f44cf98c8c27d61e1cf49ef69d945580aa922a7071f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_improved_smoke.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_improved_smoke.conf",
+    "source_sha256": "57136903708c8fc6a60048f5b85d4a8ef270fe17fd28cf034acb02c7a02d83d9",
+    "delivery_sha256": "57136903708c8fc6a60048f5b85d4a8ef270fe17fd28cf034acb02c7a02d83d9",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_no_phase.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_no_phase.conf",
+    "source_sha256": "1c5ea94961b958430b8fc05e796b925351dae75eddad357e87f21328054f45ba",
+    "delivery_sha256": "1c5ea94961b958430b8fc05e796b925351dae75eddad357e87f21328054f45ba",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_phase_aware.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_phase_aware.conf",
+    "source_sha256": "b660ad8fe60f6dcd961773f1875f8e14674b88e19a7ec24d1ffbd029f6a93148",
+    "delivery_sha256": "b660ad8fe60f6dcd961773f1875f8e14674b88e19a7ec24d1ffbd029f6a93148",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_phase_aware_smoke.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_phase_aware_smoke.conf",
+    "source_sha256": "80800fb19439c9b1e3aed68a472c8c38470f21b003359dd79a534e7ad7d71582",
+    "delivery_sha256": "80800fb19439c9b1e3aed68a472c8c38470f21b003359dd79a534e7ad7d71582",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/freqnet_wavelet.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/freqnet_wavelet.conf",
+    "source_sha256": "2fb568cf9a58da9ebda2faba269b237b4b89da4da4bc35f2206b846a776d3212",
+    "delivery_sha256": "2fb568cf9a58da9ebda2faba269b237b4b89da4da4bc35f2206b846a776d3212",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/EuRoC/wavenet_v1.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/EuRoC/wavenet_v1.conf",
+    "source_sha256": "e3d7b4dab68cacb867de2e24bf2148016ffdccf1024303c3a740c66a7f335e93",
+    "delivery_sha256": "e3d7b4dab68cacb867de2e24bf2148016ffdccf1024303c3a740c66a7f335e93",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/KITTI/codenet.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/KITTI/codenet.conf",
+    "source_sha256": "a7cfd4dfc29351a0b0afbfe95456bc3aa9d4e45afa8c0b7b2a64d2595fbdf112",
+    "delivery_sha256": "a7cfd4dfc29351a0b0afbfe95456bc3aa9d4e45afa8c0b7b2a64d2595fbdf112",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/RoNIN/phase_aware_velocity.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/RoNIN/phase_aware_velocity.conf",
+    "source_sha256": "71e835784aa99fba03f864e4f87aa930608e74e4936f06cb3383c2d69e146197",
+    "delivery_sha256": "71e835784aa99fba03f864e4f87aa930608e74e4936f06cb3383c2d69e146197",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/RoNIN/phase_aware_velocity_cpu_tune.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/RoNIN/phase_aware_velocity_cpu_tune.conf",
+    "source_sha256": "49975dfaee44af0ef0eb52818a0c7a54451e5b3eb03d1e350e858e51d5b3475c",
+    "delivery_sha256": "49975dfaee44af0ef0eb52818a0c7a54451e5b3eb03d1e350e858e51d5b3475c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/RoNIN/phase_aware_velocity_cpu_tune_full.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/RoNIN/phase_aware_velocity_cpu_tune_full.conf",
+    "source_sha256": "ae8d0a12eff547c5315b208368a7421e1601e2433526745f04000b02db4eab70",
+    "delivery_sha256": "ae8d0a12eff547c5315b208368a7421e1601e2433526745f04000b02db4eab70",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/RoNIN/phase_aware_velocity_smoke.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/RoNIN/phase_aware_velocity_smoke.conf",
+    "source_sha256": "a66e94ff11494f7806d2f673888b8e6d2fce58a946ec85bf1e75c6d76bcdae28",
+    "delivery_sha256": "a66e94ff11494f7806d2f673888b8e6d2fce58a946ec85bf1e75c6d76bcdae28",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/RoNIN/phase_aware_velocity_train_part2.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/RoNIN/phase_aware_velocity_train_part2.conf",
+    "source_sha256": "ed0fe0ec9e07b8e6ecc25bc6e566236117d8bc0622741ddc67eafd2ebf9f2feb",
+    "delivery_sha256": "ed0fe0ec9e07b8e6ecc25bc6e566236117d8bc0622741ddc67eafd2ebf9f2feb",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/SubT/subt_final_ugv1.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/SubT/subt_final_ugv1.conf",
+    "source_sha256": "50df30d597db353b566b8f973155589a4e1fde429779f2e051f29510fd725003",
+    "delivery_sha256": "50df30d597db353b566b8f973155589a4e1fde429779f2e051f29510fd725003",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/SubT/subt_final_ugv2.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/SubT/subt_final_ugv2.conf",
+    "source_sha256": "3bc9d728076beac4f4e971bd7aa5617591dce9cb17191f5013035038ffe6b790",
+    "delivery_sha256": "3bc9d728076beac4f4e971bd7aa5617591dce9cb17191f5013035038ffe6b790",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/SubT/subt_final_ugv3.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/SubT/subt_final_ugv3.conf",
+    "source_sha256": "e742b77e737f4c4c1ebca767e425bb37f7ad37c595c5c7b60efbea9afba1751e",
+    "delivery_sha256": "e742b77e737f4c4c1ebca767e425bb37f7ad37c595c5c7b60efbea9afba1751e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/SubT/subt_urban_ugv1.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/SubT/subt_urban_ugv1.conf",
+    "source_sha256": "adfcb9f40585541f5a8db576ffbe45734ecea37572b7390452ca01a011632126",
+    "delivery_sha256": "adfcb9f40585541f5a8db576ffbe45734ecea37572b7390452ca01a011632126",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/SubT/subt_urban_ugv2.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/SubT/subt_urban_ugv2.conf",
+    "source_sha256": "e5ee212b5447bb00f753404925bc460617d3883ef1313e2a02f2b9c3a83c677f",
+    "delivery_sha256": "e5ee212b5447bb00f753404925bc460617d3883ef1313e2a02f2b9c3a83c677f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/exp/TUMVI/codenet.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/exp/TUMVI/codenet.conf",
+    "source_sha256": "08dbffab97b11ac430f5d60b9f886a35be7094e2a26bcd6d82278c4f8f58a8bc",
+    "delivery_sha256": "08dbffab97b11ac430f5d60b9f886a35be7094e2a26bcd6d82278c4f8f58a8bc",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/train/train.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/train/train.conf",
+    "source_sha256": "a9c43992473483cbc3a5fdb15bf7d6bfc951d86700bc8c235051ce308585ab64",
+    "delivery_sha256": "a9c43992473483cbc3a5fdb15bf7d6bfc951d86700bc8c235051ce308585ab64",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/configs/train/train_freq.conf",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/configs/train/train_freq.conf",
+    "source_sha256": "e2d88aa3f71760d0a87a1ee852b23da0ef0141e9cd7c8996ac7f280c0dd2c6b4",
+    "delivery_sha256": "e2d88aa3f71760d0a87a1ee852b23da0ef0141e9cd7c8996ac7f280c0dd2c6b4",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/train.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/train.py",
+    "source_sha256": "02b156406cdbba390fb35371f0f4515791d3845c8afbe340c354fba1d988541c",
+    "delivery_sha256": "02b156406cdbba390fb35371f0f4515791d3845c8afbe340c354fba1d988541c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/eval.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/eval.py",
+    "source_sha256": "b59ff5d8929ada0cffb73c63cda3c33f02056c41ede621729ce1d95d8d6d0d29",
+    "delivery_sha256": "b59ff5d8929ada0cffb73c63cda3c33f02056c41ede621729ce1d95d8d6d0d29",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/inference.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/inference.py",
+    "source_sha256": "d2dad7eff482d27d1c150ddcb02adf6c633138657fb25a6a8ebf93ea197b84e1",
+    "delivery_sha256": "d2dad7eff482d27d1c150ddcb02adf6c633138657fb25a6a8ebf93ea197b84e1",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/train_ronin.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/train_ronin.py",
+    "source_sha256": "45370e9cf2e603941a961f4a8a324b4baa551901519666ac32fdf0e2749f7de6",
+    "delivery_sha256": "45370e9cf2e603941a961f4a8a324b4baa551901519666ac32fdf0e2749f7de6",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/analyze_airimu_phase.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/analyze_airimu_phase.py",
+    "source_sha256": "d6f5f4d90407210089dd2e0877e0c47589e0bb9f92ffee3e6656e0bf9fdd08fc",
+    "delivery_sha256": "d6f5f4d90407210089dd2e0877e0c47589e0bb9f92ffee3e6656e0bf9fdd08fc",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/evaluation/evaluate_state.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/evaluation/evaluate_state.py",
+    "source_sha256": "888056597c377ab5514466fb7fe25dfb340a45a824d8965f602cea3a92211af5",
+    "delivery_sha256": "888056597c377ab5514466fb7fe25dfb340a45a824d8965f602cea3a92211af5",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/evaluation/ESKF.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/evaluation/ESKF.py",
+    "source_sha256": "37de5cccc8e44627f74f208da01773d25db1c83f5cb4e00dab85f495b6f2c74f",
+    "delivery_sha256": "37de5cccc8e44627f74f208da01773d25db1c83f5cb4e00dab85f495b6f2c74f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/evaluation/ESKF_stable.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/evaluation/ESKF_stable.py",
+    "source_sha256": "68d9317be48fa955dc3193caaade74189e705827c36dac4b474fc8b640e79a4f",
+    "delivery_sha256": "68d9317be48fa955dc3193caaade74189e705827c36dac4b474fc8b640e79a4f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/evaluation/ESKF_with_anomaly_detection.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/evaluation/ESKF_with_anomaly_detection.py",
+    "source_sha256": "0e95cdb79cbdbdcc2fd99cc29fc97fbfc86d98ee578895b96a7587bd7786a396",
+    "delivery_sha256": "0e95cdb79cbdbdcc2fd99cc29fc97fbfc86d98ee578895b96a7587bd7786a396",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/evaluation/GPS_airIMU.py",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/evaluation/GPS_airIMU.py",
+    "source_sha256": "5a3cedc1702f267f9cf287a874e641b99926c6f257951fe453bf51b56bc26239",
+    "delivery_sha256": "5a3cedc1702f267f9cf287a874e641b99926c6f257951fe453bf51b56bc26239",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/README.upstream.md",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/README.md",
+    "source_sha256": "c83aafb7d0a9719768d169e9856108e412042668b69b54672fc6deb6994a4b34",
+    "delivery_sha256": "c83aafb7d0a9719768d169e9856108e412042668b69b54672fc6deb6994a4b34",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/__init__.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/__init__.py",
+    "source_sha256": "a21c3c6c5a6e5f1f536caf710193c70a9297c8d18b3d9dfb7c2b7899f05112c5",
+    "delivery_sha256": "a21c3c6c5a6e5f1f536caf710193c70a9297c8d18b3d9dfb7c2b7899f05112c5",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/code.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/code.py",
+    "source_sha256": "7d7035b64588dc913e8c48bb2ec083260e27d7059446f25f858c0448489daa3a",
+    "delivery_sha256": "7d7035b64588dc913e8c48bb2ec083260e27d7059446f25f858c0448489daa3a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/loss_func.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/loss_func.py",
+    "source_sha256": "9a7835b39d0c354d5af862f64e465a12b46e2483c696ea0d80a9a7390aecdbae",
+    "delivery_sha256": "9a7835b39d0c354d5af862f64e465a12b46e2483c696ea0d80a9a7390aecdbae",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/losses.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/losses.py",
+    "source_sha256": "3b496d5a5e8ff19291ba0e9a3364b5b3a6f793cf51abcba611cc048166242b1d",
+    "delivery_sha256": "3b496d5a5e8ff19291ba0e9a3364b5b3a6f793cf51abcba611cc048166242b1d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_ekf.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_ekf.py",
+    "source_sha256": "7523265a65c24058dc122823a997b047e886c93dfab865d3a228f37fe024e59c",
+    "delivery_sha256": "7523265a65c24058dc122823a997b047e886c93dfab865d3a228f37fe024e59c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq.py",
+    "source_sha256": "42399891cd53e4c5dd617c6cbcdf077e76f6214c63011129a434f49165835a4e",
+    "delivery_sha256": "42399891cd53e4c5dd617c6cbcdf077e76f6214c63011129a434f49165835a4e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_complex.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_complex.py",
+    "source_sha256": "4a5496961371f0c1ae44b7b85b13797a654fee2f576968fc18636189e9af9401",
+    "delivery_sha256": "4a5496961371f0c1ae44b7b85b13797a654fee2f576968fc18636189e9af9401",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_improved.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_improved.py",
+    "source_sha256": "0d2fa69c1675c715e5ce2b078f9f5d1bf955dab1b27952b03aa585658a9c3697",
+    "delivery_sha256": "0d2fa69c1675c715e5ce2b078f9f5d1bf955dab1b27952b03aa585658a9c3697",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_improved_no_interp.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_improved_no_interp.py",
+    "source_sha256": "2e376202bf6eddbfc649489f5fe0d6a2749529d1780a05884ddf2608cdabe8ad",
+    "delivery_sha256": "2e376202bf6eddbfc649489f5fe0d6a2749529d1780a05884ddf2608cdabe8ad",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_lstm.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_lstm.py",
+    "source_sha256": "e4e1541bf6b1c97426b19f5b296fb057cefb321c1a25d6e26eab3108bcbd5b5a",
+    "delivery_sha256": "e4e1541bf6b1c97426b19f5b296fb057cefb321c1a25d6e26eab3108bcbd5b5a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_medium.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_medium.py",
+    "source_sha256": "78a09d39f0d5efea24c58f9e823c2291a24608173211bb671f30ab3839647a9f",
+    "delivery_sha256": "78a09d39f0d5efea24c58f9e823c2291a24608173211bb671f30ab3839647a9f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_medium_no_interp.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_medium_no_interp.py",
+    "source_sha256": "a0de810ed5753ac2f4096e0bc5ea0a60a3b4425b48d767b8a71ff89d6a5d2115",
+    "delivery_sha256": "a0de810ed5753ac2f4096e0bc5ea0a60a3b4425b48d767b8a71ff89d6a5d2115",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_no_interp.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_no_interp.py",
+    "source_sha256": "03c9c657afeb52bd92a6c340c3bcc758071c216a1376953ff55dd9883f4e1736",
+    "delivery_sha256": "03c9c657afeb52bd92a6c340c3bcc758071c216a1376953ff55dd9883f4e1736",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/model_freq_simple.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/model_freq_simple.py",
+    "source_sha256": "19daf127648ebc3dd6e0a94562db630f492c9620be5cff02a963035bb752e07d",
+    "delivery_sha256": "19daf127648ebc3dd6e0a94562db630f492c9620be5cff02a963035bb752e07d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/model/nodel_wavenet_v1.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/model/nodel_wavenet_v1.py",
+    "source_sha256": "06d76067d90c4f9928b336a638c9ab4f64fab5005dfe756602cb8a2acde29b77",
+    "delivery_sha256": "06d76067d90c4f9928b336a638c9ab4f64fab5005dfe756602cb8a2acde29b77",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/BlackBirddataset.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/BlackBirddataset.py",
+    "source_sha256": "cbd6b7f7a46488b56ba419b8820b37ed4d8fb2f41578037b7c81e5eb66ed7295",
+    "delivery_sha256": "cbd6b7f7a46488b56ba419b8820b37ed4d8fb2f41578037b7c81e5eb66ed7295",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/EuRoCdataset.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/EuRoCdataset.py",
+    "source_sha256": "452e0969cad4918fa935f951a1055580acd623b594f6cdf4071b3c9799b52d0b",
+    "delivery_sha256": "452e0969cad4918fa935f951a1055580acd623b594f6cdf4071b3c9799b52d0b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/Pegasusdataset.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/Pegasusdataset.py",
+    "source_sha256": "0561d15bc2bf3f731233d6727b28693d9268cf23fac74c1d889d6c02fdcc95b3",
+    "delivery_sha256": "0561d15bc2bf3f731233d6727b28693d9268cf23fac74c1d889d6c02fdcc95b3",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/__init__.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/__init__.py",
+    "source_sha256": "8c4758afe87c4463e2ca7cbf27bf5f3d9aa58163c3a1b9de226a9409195d7fda",
+    "delivery_sha256": "8c4758afe87c4463e2ca7cbf27bf5f3d9aa58163c3a1b9de226a9409195d7fda",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/dataset.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/dataset.py",
+    "source_sha256": "a228952bd2f3b532f1ae951e6b92742e50bed858cca90412d6a8c20f14b44550",
+    "delivery_sha256": "a228952bd2f3b532f1ae951e6b92742e50bed858cca90412d6a8c20f14b44550",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/dataset_motion.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/dataset_motion.py",
+    "source_sha256": "86650a4c115d7dbcc874e6a2e33f7d00f466897b99a07b4dbb33050e1aff3c01",
+    "delivery_sha256": "86650a4c115d7dbcc874e6a2e33f7d00f466897b99a07b4dbb33050e1aff3c01",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/datasets/dataset_utils.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/datasets/dataset_utils.py",
+    "source_sha256": "12929cda1757fb9ef0b94e3cdd2ee87e23f55e3c21df4d32b28e33764a1345af",
+    "delivery_sha256": "12929cda1757fb9ef0b94e3cdd2ee87e23f55e3c21df4d32b28e33764a1345af",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/utils/__init__.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/utils/__init__.py",
+    "source_sha256": "94022e7e736130c76797588b24e7a4a9c367271d6f8946235afb134de1d9dd13",
+    "delivery_sha256": "94022e7e736130c76797588b24e7a4a9c367271d6f8946235afb134de1d9dd13",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/utils/deferentiate_vel.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/utils/deferentiate_vel.py",
+    "source_sha256": "9735c2aedfee12996e8fea5235c55fc031dd82dc424f7929c49413c46451dc86",
+    "delivery_sha256": "9735c2aedfee12996e8fea5235c55fc031dd82dc424f7929c49413c46451dc86",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/utils/integrate.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/utils/integrate.py",
+    "source_sha256": "e21305a292d39437da8b06cb8b076cc66db33dab752cef5f461ddb99968b2701",
+    "delivery_sha256": "e21305a292d39437da8b06cb8b076cc66db33dab752cef5f461ddb99968b2701",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/utils/utils.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/utils/utils.py",
+    "source_sha256": "903ea3f30928e5135bf33e326b43b73015a135d78e37bc32ef0e7058a2b85b2e",
+    "delivery_sha256": "903ea3f30928e5135bf33e326b43b73015a135d78e37bc32ef0e7058a2b85b2e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/utils/velocity_integrator.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/utils/velocity_integrator.py",
+    "source_sha256": "eb575e4964d40c4de179128a2a36af599b31d233bb859d3db1f0019d1f9b66ca",
+    "delivery_sha256": "eb575e4964d40c4de179128a2a36af599b31d233bb859d3db1f0019d1f9b66ca",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/utils/visualize_state.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/utils/visualize_state.py",
+    "source_sha256": "09ae708a1e092984c472fc8fd402594509ed0d9836fc477c0050dd0c9b5cecdf",
+    "delivery_sha256": "09ae708a1e092984c472fc8fd402594509ed0d9836fc477c0050dd0c9b5cecdf",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/tests/test_joint_pose_eval.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/tests/test_joint_pose_eval.py",
+    "source_sha256": "f28f03c611a7070e71a5742b0da33fea8980f9ccc4aa35cbdf484f51eaa2174e",
+    "delivery_sha256": "f28f03c611a7070e71a5742b0da33fea8980f9ccc4aa35cbdf484f51eaa2174e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/tests/test_repro_precision.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/tests/test_repro_precision.py",
+    "source_sha256": "5ef13f81ce4fd545c89ccf38bdf46fb1e04b4d375f95de10f49c5532521ac4b8",
+    "delivery_sha256": "5ef13f81ce4fd545c89ccf38bdf46fb1e04b4d375f95de10f49c5532521ac4b8",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/BlackBird/motion_body_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/BlackBird/motion_body_rot.conf",
+    "source_sha256": "cfd1fa3b445fe02d537f7f332133eb7038ad34333d53b5c2c7c58963c5476626",
+    "delivery_sha256": "cfd1fa3b445fe02d537f7f332133eb7038ad34333d53b5c2c7c58963c5476626",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body.conf",
+    "source_sha256": "1ba2827df8dd562f09b8bdf682661739d5bf9a28bc49518b1119e3c3b9307fbe",
+    "delivery_sha256": "1ba2827df8dd562f09b8bdf682661739d5bf9a28bc49518b1119e3c3b9307fbe",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_ekf.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_ekf.conf",
+    "source_sha256": "7cc44ba146522c6d5551553684e4481eac1a1cc42a74ea07f684bedf891d98b2",
+    "delivery_sha256": "7cc44ba146522c6d5551553684e4481eac1a1cc42a74ea07f684bedf891d98b2",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_ekf_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_ekf_rot.conf",
+    "source_sha256": "695304efb48bd4b70bda08ade0aee01930d2612996cc59f720490fbb32331cac",
+    "delivery_sha256": "695304efb48bd4b70bda08ade0aee01930d2612996cc59f720490fbb32331cac",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq.conf",
+    "source_sha256": "fdbb6a635c99e45b4760c01eb5e11b61c0ecfba39b2a79ee9ab93eb1cd885f66",
+    "delivery_sha256": "fdbb6a635c99e45b4760c01eb5e11b61c0ecfba39b2a79ee9ab93eb1cd885f66",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_complex.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_complex.conf",
+    "source_sha256": "57b3d71763d8b8be85c75e35f160d3b930224e8cc6ad50e69f020c80cd1f0e47",
+    "delivery_sha256": "57b3d71763d8b8be85c75e35f160d3b930224e8cc6ad50e69f020c80cd1f0e47",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_complex_norot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_complex_norot.conf",
+    "source_sha256": "6a75e2be86f328a3bc73e369b76a7566c3727601690285e44a24ccc45ecfe497",
+    "delivery_sha256": "6a75e2be86f328a3bc73e369b76a7566c3727601690285e44a24ccc45ecfe497",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_improved_no_interp.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_improved_no_interp.conf",
+    "source_sha256": "9b7a9036590ad3b9b91274af9ef7535ba4e22747f1329b11040accc0d98c64e7",
+    "delivery_sha256": "9b7a9036590ad3b9b91274af9ef7535ba4e22747f1329b11040accc0d98c64e7",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_improved_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_improved_rot.conf",
+    "source_sha256": "46a6a391abe126c76eb7fce9c57c6df56cd451405f77fc2442f85f9f9ea167e3",
+    "delivery_sha256": "46a6a391abe126c76eb7fce9c57c6df56cd451405f77fc2442f85f9f9ea167e3",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_improved_rot_no_interp.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_improved_rot_no_interp.conf",
+    "source_sha256": "26ed78d68177514b205b1c635f54a69d9dbc4a19cee1d0ab9d4188214b5eaf09",
+    "delivery_sha256": "26ed78d68177514b205b1c635f54a69d9dbc4a19cee1d0ab9d4188214b5eaf09",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_lstm.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_lstm.conf",
+    "source_sha256": "e864d34a7e6d9eafb581ddb2f1a59229ee4d7827e5db3edd747b60d92262f853",
+    "delivery_sha256": "e864d34a7e6d9eafb581ddb2f1a59229ee4d7827e5db3edd747b60d92262f853",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_lstm_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_lstm_rot.conf",
+    "source_sha256": "8686f41b271597f9507e57b4e5ecbc7f9f2c72f985961fbd019b626193947635",
+    "delivery_sha256": "8686f41b271597f9507e57b4e5ecbc7f9f2c72f985961fbd019b626193947635",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_medium_no_interp.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_medium_no_interp.conf",
+    "source_sha256": "6ddd6aae69b43937e509fc04072332ec4943deb8e8540fd143868dab50c4d362",
+    "delivery_sha256": "6ddd6aae69b43937e509fc04072332ec4943deb8e8540fd143868dab50c4d362",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_medium_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_medium_rot.conf",
+    "source_sha256": "29882a56ede0deb111fb5131e69c6d8059abd3f2f49d257ed05300c5618ccebc",
+    "delivery_sha256": "29882a56ede0deb111fb5131e69c6d8059abd3f2f49d257ed05300c5618ccebc",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_medium_rot_no_interp.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_medium_rot_no_interp.conf",
+    "source_sha256": "ab642dd634e8f0f0f8345f3be85f1a7c2ed5f7d4c93e219c571330977600f773",
+    "delivery_sha256": "ab642dd634e8f0f0f8345f3be85f1a7c2ed5f7d4c93e219c571330977600f773",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_no_interp.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_no_interp.conf",
+    "source_sha256": "baf308b8d7c93096482deade530598aa2558f451357d2c2c1cd49b9731f65a1b",
+    "delivery_sha256": "baf308b8d7c93096482deade530598aa2558f451357d2c2c1cd49b9731f65a1b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_rot.conf",
+    "source_sha256": "7f9988250f4986e2f281c257646a2996d74f4bd00cebfe72edc38851ef41c916",
+    "delivery_sha256": "7f9988250f4986e2f281c257646a2996d74f4bd00cebfe72edc38851ef41c916",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_freq_rot_no_interp.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_freq_rot_no_interp.conf",
+    "source_sha256": "c46d6b297c98955c1268c605e34a4e0f9582d87f979bb5866c7b79e8364194e1",
+    "delivery_sha256": "c46d6b297c98955c1268c605e34a4e0f9582d87f979bb5866c7b79e8364194e1",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_rmg.conf",
+    "source_sha256": "bf80c6fe9b2ba436107a2080b49e311e2f7d988e5fdbfae517e0ec05f006603a",
+    "delivery_sha256": "bf80c6fe9b2ba436107a2080b49e311e2f7d988e5fdbfae517e0ec05f006603a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_rot.conf",
+    "source_sha256": "f63607fe88f64b2b709543bd0ff7bd170cd9906042b671978701cc0bd3a34b8a",
+    "delivery_sha256": "f63607fe88f64b2b709543bd0ff7bd170cd9906042b671978701cc0bd3a34b8a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_transformer.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_transformer.conf",
+    "source_sha256": "7ce210f0b3e1e3566a31c8a3560e3c628c2e5106c8436fe928bdff73d0f53dda",
+    "delivery_sha256": "7ce210f0b3e1e3566a31c8a3560e3c628c2e5106c8436fe928bdff73d0f53dda",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_wavelet.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_wavelet.conf",
+    "source_sha256": "2feb5a0b3f7cecdec927877c63c1c136830ca75e5491fc9e39688440dde9274a",
+    "delivery_sha256": "2feb5a0b3f7cecdec927877c63c1c136830ca75e5491fc9e39688440dde9274a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_body_wavelet_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_body_wavelet_rot.conf",
+    "source_sha256": "1fc6ec0b7bc431b988672bac69fe8b4efcde2777b15767913285e78bbd8ab800",
+    "delivery_sha256": "1fc6ec0b7bc431b988672bac69fe8b4efcde2777b15767913285e78bbd8ab800",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_global.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_global.conf",
+    "source_sha256": "7dfb489d895c415c16d9f1c4e050849d4254e0600ea87ec8698c15f90ad26b28",
+    "delivery_sha256": "7dfb489d895c415c16d9f1c4e050849d4254e0600ea87ec8698c15f90ad26b28",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_global_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_global_rmg.conf",
+    "source_sha256": "a348636ad8b938420c529a35389302da12744addd814b630cb4a055992c1bbaf",
+    "delivery_sha256": "a348636ad8b938420c529a35389302da12744addd814b630cb4a055992c1bbaf",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/EuRoC/motion_global_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/EuRoC/motion_global_rot.conf",
+    "source_sha256": "b30eec4d1e330c90371cfdf872e012dc62521b5241ef35a7d51ac62fd056646b",
+    "delivery_sha256": "b30eec4d1e330c90371cfdf872e012dc62521b5241ef35a7d51ac62fd056646b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/Pegasus/motion_body.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/Pegasus/motion_body.conf",
+    "source_sha256": "6ca83fabf343aa8950d2ab9a8534c9ca035ad7a66578c03267d19f1bad261769",
+    "delivery_sha256": "6ca83fabf343aa8950d2ab9a8534c9ca035ad7a66578c03267d19f1bad261769",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/Pegasus/motion_body_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/Pegasus/motion_body_rmg.conf",
+    "source_sha256": "b49a9de0c417697894406a25e17ae81803b70cb842d3b27e0a3327e8e031a59d",
+    "delivery_sha256": "b49a9de0c417697894406a25e17ae81803b70cb842d3b27e0a3327e8e031a59d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/Pegasus/motion_body_rot.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/Pegasus/motion_body_rot.conf",
+    "source_sha256": "1fe3e3dc459cc96f2685dddce6ba92b89ae1e05173d6046a875944a7a9937332",
+    "delivery_sha256": "1fe3e3dc459cc96f2685dddce6ba92b89ae1e05173d6046a875944a7a9937332",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/Pegasus/motion_global.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/Pegasus/motion_global.conf",
+    "source_sha256": "d86b268eb7a11f6a797445af451dbcbf62c7000fa942a1cd9846793a0001bab4",
+    "delivery_sha256": "d86b268eb7a11f6a797445af451dbcbf62c7000fa942a1cd9846793a0001bab4",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/Pegasus/motion_global_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/Pegasus/motion_global_rmg.conf",
+    "source_sha256": "40bb29ec4f3110736c0f2e9d4132905424327a3f292dbdebd6778dd5a6bba30f",
+    "delivery_sha256": "40bb29ec4f3110736c0f2e9d4132905424327a3f292dbdebd6778dd5a6bba30f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/BlackBird/blackbird_body.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/BlackBird/blackbird_body.conf",
+    "source_sha256": "8b01332c6fb795a806cb60aae74f4b178ba96be60a7b98f551239c06fe9c13d2",
+    "delivery_sha256": "8b01332c6fb795a806cb60aae74f4b178ba96be60a7b98f551239c06fe9c13d2",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/EuRoC/Euroc_body.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/EuRoC/Euroc_body.conf",
+    "source_sha256": "6e8e68779438b07b05eb203a30b47c1afb6ac1eb7e81cc51cf11fc9a1e0894b5",
+    "delivery_sha256": "a7f04ecbbe2163b6857c8f71ef1ea680a146cbb627c9edf2a3a3ce2a34d3b7f2",
+    "packaging_changed": true
+  },
+  {
+    "path": "airio/configs/datasets/EuRoC/Euroc_body_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/EuRoC/Euroc_body_rmg.conf",
+    "source_sha256": "f6a5ec15e8e2dd765e1151c80713d287976a60acc2f2673814efc72d55bae566",
+    "delivery_sha256": "f6a5ec15e8e2dd765e1151c80713d287976a60acc2f2673814efc72d55bae566",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/EuRoC/Euroc_global.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/EuRoC/Euroc_global.conf",
+    "source_sha256": "e2c46f8edda5c1efcf19933bc1d32cc314d8aaba7815cfd50a53b072f51c52a8",
+    "delivery_sha256": "e2c46f8edda5c1efcf19933bc1d32cc314d8aaba7815cfd50a53b072f51c52a8",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/EuRoC/Euroc_global_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/EuRoC/Euroc_global_rmg.conf",
+    "source_sha256": "0a6b27134a01ef93a85df3f22db96e5de05cc8ee3731fb1bb872b5e7e00c1c77",
+    "delivery_sha256": "0a6b27134a01ef93a85df3f22db96e5de05cc8ee3731fb1bb872b5e7e00c1c77",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/Pegasus/pegasus_body.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/Pegasus/pegasus_body.conf",
+    "source_sha256": "08a49cf7aa8ee61b5c37fdb1d04d7274598b2052b191481f748b8001f26ccb91",
+    "delivery_sha256": "0216e2df5764aeb63f5990721717832524cd63b365cf52c31c1bc2f58a15ef25",
+    "packaging_changed": true
+  },
+  {
+    "path": "airio/configs/datasets/Pegasus/pegasus_body_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/Pegasus/pegasus_body_rmg.conf",
+    "source_sha256": "564d55104f07b274a3990cd34cada5b5c317fd36d30ceeca8d888741a539bd26",
+    "delivery_sha256": "564d55104f07b274a3990cd34cada5b5c317fd36d30ceeca8d888741a539bd26",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/Pegasus/pegasus_global.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/Pegasus/pegasus_global.conf",
+    "source_sha256": "a4e4e44d600f52f185dc9b7103a12300b75f42148f6680c3714178071bd210c4",
+    "delivery_sha256": "a4e4e44d600f52f185dc9b7103a12300b75f42148f6680c3714178071bd210c4",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/configs/datasets/Pegasus/pegasus_global_rmg.conf",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/configs/datasets/Pegasus/pegasus_global_rmg.conf",
+    "source_sha256": "d0a07d4699e72386c1ff2854ce02133445b86f5556f25c54c934ef782e90c943",
+    "delivery_sha256": "d0a07d4699e72386c1ff2854ce02133445b86f5556f25c54c934ef782e90c943",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/train_motion.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/train_motion.py",
+    "source_sha256": "f175309c75bdfe79ee5a6177bf42c06572fede5d4656b08b5cb83868c839050b",
+    "delivery_sha256": "f175309c75bdfe79ee5a6177bf42c06572fede5d4656b08b5cb83868c839050b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/inference_motion.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/inference_motion.py",
+    "source_sha256": "b85ef396ad9450814609589f7c4186a8d9f7111edb341bca4d80766bca059601",
+    "delivery_sha256": "b85ef396ad9450814609589f7c4186a8d9f7111edb341bca4d80766bca059601",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/evaluate_airio_joint_pose.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/evaluate_airio_joint_pose.py",
+    "source_sha256": "ef058e3b05935aa8fa03913af08370d3368bb17d903a3d17e887624c88febb6a",
+    "delivery_sha256": "ef058e3b05935aa8fa03913af08370d3368bb17d903a3d17e887624c88febb6a",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/evaluate_trajectory_metrics.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/evaluate_trajectory_metrics.py",
+    "source_sha256": "308eac1a893e88df93aafe15e3eb789718bdfc56ee2a0a7a3aeee9faedcd687c",
+    "delivery_sha256": "308eac1a893e88df93aafe15e3eb789718bdfc56ee2a0a7a3aeee9faedcd687c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/evaluation/evaluate_motion.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/evaluation/evaluate_motion.py",
+    "source_sha256": "5cf4fda6cfa1399c6b5659a75a0b8877f61870cb1101d747a39a92a0c15e336c",
+    "delivery_sha256": "5cf4fda6cfa1399c6b5659a75a0b8877f61870cb1101d747a39a92a0c15e336c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/evaluation/evaluate_ekf.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/evaluation/evaluate_ekf.py",
+    "source_sha256": "58edc8e3bb358cefcdf699b50786b63f55af21898f88765c6ef704d7f4788a60",
+    "delivery_sha256": "58edc8e3bb358cefcdf699b50786b63f55af21898f88765c6ef704d7f4788a60",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/evaluation/evaluate_ekf_ori.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/evaluation/evaluate_ekf_ori.py",
+    "source_sha256": "e9479bd91a38d091fa0688c932b0df71fca18b6c1c2e49be332c38d01c9e7c1b",
+    "delivery_sha256": "e9479bd91a38d091fa0688c932b0df71fca18b6c1c2e49be332c38d01c9e7c1b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/evaluation/save_ori.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/evaluation/save_ori.py",
+    "source_sha256": "b5997b5f37e4a241b7246d52cb8f0e5c9e7c116382344706b8841a9e76e1d0fc",
+    "delivery_sha256": "b5997b5f37e4a241b7246d52cb8f0e5c9e7c116382344706b8841a9e76e1d0fc",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/README.upstream.md",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/README.md",
+    "source_sha256": "4e47a29795ddb0a9151256da31d2451b6846f0c330fc167f9f5aa525ac92d0c1",
+    "delivery_sha256": "4e47a29795ddb0a9151256da31d2451b6846f0c330fc167f9f5aa525ac92d0c1",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/codenet/ckpt/best_model.ckpt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/codenet/ckpt/best_model.ckpt",
+    "source_sha256": "231da7cbf377469c5a77a22f2a9db3a8c4757e02b7bf0298bf764165a51257c6",
+    "delivery_sha256": "231da7cbf377469c5a77a22f2a9db3a8c4757e02b7bf0298bf764165a51257c6",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/codenet/parameters.yaml",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/codenet/parameters.yaml",
+    "source_sha256": "29890a3e4e442ead8bfb40eb4b8bb3d9db0a3a0d5056a595b4514e4b9823560f",
+    "delivery_sha256": "29890a3e4e442ead8bfb40eb4b8bb3d9db0a3a0d5056a595b4514e4b9823560f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/codenet/result_None_initTrue_gtTrue.yaml",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/codenet/result_None_initTrue_gtTrue.yaml",
+    "source_sha256": "7301ae16fa5670845d5f46b00457cb3c312ac8cd4f18b9bf9c5895ff90c0712f",
+    "delivery_sha256": "7301ae16fa5670845d5f46b00457cb3c312ac8cd4f18b9bf9c5895ff90c0712f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/freqnet_phase_aware/ckpt/best_model.ckpt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/freqnet_phase_aware/ckpt/best_model.ckpt",
+    "source_sha256": "cf3d708068b3be7108ad4c2d052012e530a16735f1a393cd728bb7958a3eca34",
+    "delivery_sha256": "cf3d708068b3be7108ad4c2d052012e530a16735f1a393cd728bb7958a3eca34",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/freqnet_phase_aware/parameters.yaml",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/freqnet_phase_aware/parameters.yaml",
+    "source_sha256": "b99c4639169ead9c0637ef25e4a88d8dcd533982a14c7098c08443f22e8157c1",
+    "delivery_sha256": "b99c4639169ead9c0637ef25e4a88d8dcd533982a14c7098c08443f22e8157c1",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/freqnet_phase_aware/result_None_initTrue_gtTrue.yaml",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/freqnet_phase_aware/result_None_initTrue_gtTrue.yaml",
+    "source_sha256": "71027553b63a1ce684a584b284a30fc5ce1912ed4fdf05ae7a4b9915d78b097d",
+    "delivery_sha256": "71027553b63a1ce684a584b284a30fc5ce1912ed4fdf05ae7a4b9915d78b097d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/freqnet_no_phase/ckpt/best_model.ckpt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/freqnet_no_phase/ckpt/best_model.ckpt",
+    "source_sha256": "490e7bfbe542eaacb8a6bddcad71a52e276f72bd211756d008f193c030c835ed",
+    "delivery_sha256": "490e7bfbe542eaacb8a6bddcad71a52e276f72bd211756d008f193c030c835ed",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/freqnet_no_phase/parameters.yaml",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/freqnet_no_phase/parameters.yaml",
+    "source_sha256": "569df7d4de13acc60a8610af774a88749663e867ed76ea034c84c93c880ff81c",
+    "delivery_sha256": "569df7d4de13acc60a8610af774a88749663e867ed76ea034c84c93c880ff81c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/experiments/EuRoC/freqnet_no_phase/result_None_initTrue_gtTrue.yaml",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/experiments/EuRoC/freqnet_no_phase/result_None_initTrue_gtTrue.yaml",
+    "source_sha256": "cf533ca3a46f2b27136ede66cc5d89472c259dc682ae9f84afa910189e866b68",
+    "delivery_sha256": "cf533ca3a46f2b27136ede66cc5d89472c259dc682ae9f84afa910189e866b68",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/experiments/euroc/motion_body_rot/ckpt/best_model.ckpt",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/experiments/euroc/motion_body_rot/ckpt/best_model.ckpt",
+    "source_sha256": "c24923f82d09674f4b4a5dfec6606aaeeb980c6de03d00dc75ba3822c12d60ab",
+    "delivery_sha256": "c24923f82d09674f4b4a5dfec6606aaeeb980c6de03d00dc75ba3822c12d60ab",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/experiments/euroc/motion_body_rot/parameters.yaml",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/experiments/euroc/motion_body_rot/parameters.yaml",
+    "source_sha256": "9ebe28eab93f5b06fdf20c3f534280cef64ef3fde4b3033acf23a5f8e13c1a42",
+    "delivery_sha256": "20a02c8f978033ec70b95e9693e378135ec15a7caf2274b14840329c15f5152b",
+    "packaging_changed": true
+  },
+  {
+    "path": "airio/experiments/euroc/motion_body_freq_medium_rot/ckpt/best_model.ckpt",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/experiments/euroc/motion_body_freq_medium_rot/ckpt/best_model.ckpt",
+    "source_sha256": "461f585e92d3f46862e4978e2dec380243a30cddec5f4ee2b6e215009c8e88b9",
+    "delivery_sha256": "461f585e92d3f46862e4978e2dec380243a30cddec5f4ee2b6e215009c8e88b9",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/experiments/euroc/motion_body_freq_medium_rot/parameters.yaml",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/experiments/euroc/motion_body_freq_medium_rot/parameters.yaml",
+    "source_sha256": "aa6f0985afcd6f6799e998298fbac22921dd920a088e60184767bcf55dfa5ce2",
+    "delivery_sha256": "c0b695da7f92b8b423526d55faa8a7590ebdafbed7da58d7b6d5e685cc1fae76",
+    "packaging_changed": true
+  },
+  {
+    "path": "airimu/result/euroc_airimu_codenet_200/loss_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/result/euroc_airimu_codenet_200/loss_result.json",
+    "source_sha256": "c40118478a40d6991c55d521c846ca00b44bec17cd64fc92de8a84c138dd8558",
+    "delivery_sha256": "c40118478a40d6991c55d521c846ca00b44bec17cd64fc92de8a84c138dd8558",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/result/euroc_airimu_codenet_1000/loss_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/result/euroc_airimu_codenet_1000/loss_result.json",
+    "source_sha256": "b429adfe536d1ff5473063f80308a6b77d759e923d809be6a29a4d5133d68be4",
+    "delivery_sha256": "b429adfe536d1ff5473063f80308a6b77d759e923d809be6a29a4d5133d68be4",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/result/euroc_airimu_phase_1000/loss_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/result/euroc_airimu_phase_1000/loss_result.json",
+    "source_sha256": "2c5e2c65eaa60b9922261adaa31c5c88776052d7f0d2c91a1061950d21d83dcd",
+    "delivery_sha256": "2c5e2c65eaa60b9922261adaa31c5c88776052d7f0d2c91a1061950d21d83dcd",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/result/euroc_airimu_phase_200/loss_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/result/euroc_airimu_phase_200/loss_result.json",
+    "source_sha256": "1a266f7bcbea993ef76062e80c9b72b9039202713c7057ed2fb2f9570ed74246",
+    "delivery_sha256": "1a266f7bcbea993ef76062e80c9b72b9039202713c7057ed2fb2f9570ed74246",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/result/euroc_airimu_no_phase_200/loss_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/result/euroc_airimu_no_phase_200/loss_result.json",
+    "source_sha256": "7a747d28b6232e3582ec5002f9046376363f305e74fb9107f5505fef41fa689b",
+    "delivery_sha256": "7a747d28b6232e3582ec5002f9046376363f305e74fb9107f5505fef41fa689b",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/result/euroc_airimu_no_phase_1000/loss_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/result/euroc_airimu_no_phase_1000/loss_result.json",
+    "source_sha256": "4a5ebcc05013a4813930f67e2ac9eb95123dabd1a021eb5dbd6d9e1f935fd8a2",
+    "delivery_sha256": "4a5ebcc05013a4813930f67e2ac9eb95123dabd1a021eb5dbd6d9e1f935fd8a2",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/analysis_results/airimu_phase_trajectory_analysis.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/analysis_results/airimu_phase_trajectory_analysis.json",
+    "source_sha256": "4b573b93ea06849e94845feb741abfe4ec7236ec3f8f72d222c0ebda45e2df40",
+    "delivery_sha256": "4b573b93ea06849e94845feb741abfe4ec7236ec3f8f72d222c0ebda45e2df40",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/ekfresult_fixed/codenet/0.2Hz/ekf_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/ekfresult_fixed/codenet/0.2Hz/ekf_result.json",
+    "source_sha256": "25abb059823e06db73f692ff60553d0b807132d6d0b2d0b5b23792133a843f0e",
+    "delivery_sha256": "25abb059823e06db73f692ff60553d0b807132d6d0b2d0b5b23792133a843f0e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/ekfresult_fixed/codenet/0.1Hz/ekf_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/ekfresult_fixed/codenet/0.1Hz/ekf_result.json",
+    "source_sha256": "3e69c904a7e368a9bc11c54b14bbdb81bd6218f1d6879ab27ae420ed5aa7a91c",
+    "delivery_sha256": "3e69c904a7e368a9bc11c54b14bbdb81bd6218f1d6879ab27ae420ed5aa7a91c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/ekfresult_fixed/freqnet_phase_aware/0.2Hz/ekf_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/ekfresult_fixed/freqnet_phase_aware/0.2Hz/ekf_result.json",
+    "source_sha256": "841b75496513c01c35f374ca15798acfbec418584706cf837e0f04f370464e62",
+    "delivery_sha256": "841b75496513c01c35f374ca15798acfbec418584706cf837e0f04f370464e62",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/ekfresult_fixed/freqnet_phase_aware/0.1Hz/ekf_result.json",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/ekfresult_fixed/freqnet_phase_aware/0.1Hz/ekf_result.json",
+    "source_sha256": "cdbae50ecc9a3adfc2e990fe16391d17f31696538d40f5f985488dfd779186c2",
+    "delivery_sha256": "cdbae50ecc9a3adfc2e990fe16391d17f31696538d40f5f985488dfd779186c2",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/result/euroc_airio_rot_1000_valid/result.json",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/result/euroc_airio_rot_1000_valid/result.json",
+    "source_sha256": "016bc8a02f804eb2b79092a377c1b5919e789ac0413a50bb1950f3fdb5c8eb2f",
+    "delivery_sha256": "016bc8a02f804eb2b79092a377c1b5919e789ac0413a50bb1950f3fdb5c8eb2f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/result/euroc_airio_rot_200_valid/result.json",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/result/euroc_airio_rot_200_valid/result.json",
+    "source_sha256": "24c2d641f5426f7500e46ace4bd2b69f1e41be4a447b2f623aba01042211263e",
+    "delivery_sha256": "24c2d641f5426f7500e46ace4bd2b69f1e41be4a447b2f623aba01042211263e",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/result/euroc_wavelet_phase_rot_1000_valid/result.json",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/result/euroc_wavelet_phase_rot_1000_valid/result.json",
+    "source_sha256": "40c750cb6e2b8d881775863c6b080b61173d49c14172069c68d3e6efcb7e7519",
+    "delivery_sha256": "40c750cb6e2b8d881775863c6b080b61173d49c14172069c68d3e6efcb7e7519",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/result/euroc_wavelet_phase_rot_200_valid/result.json",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/result/euroc_wavelet_phase_rot_200_valid/result.json",
+    "source_sha256": "7491b4aaecda9e11d6330c7197a59f7019ed5ee4ef3a1757e79fd6e0169acca9",
+    "delivery_sha256": "7491b4aaecda9e11d6330c7197a59f7019ed5ee4ef3a1757e79fd6e0169acca9",
+    "packaging_changed": false
+  },
+  {
+    "path": "reports/historical/EUROC_FULL_REPRODUCTION_EVALUATION.md",
+    "source_relative": "EUROC_FULL_REPRODUCTION_EVALUATION.md",
+    "source_sha256": "d46046d0a13f893f59d1b608fee1a1419d6f50698569588d03119ae45e1b8512",
+    "delivery_sha256": "d46046d0a13f893f59d1b608fee1a1419d6f50698569588d03119ae45e1b8512",
+    "packaging_changed": false
+  },
+  {
+    "path": "reports/historical/AIRIMU_WAVELET_PHASE_EVALUATION.md",
+    "source_relative": "AIRIMU_WAVELET_PHASE_EVALUATION.md",
+    "source_sha256": "33e6aaee76614fd3160dcf3d33c0b2f265e037e08b1951326d6bfd61247df8ef",
+    "delivery_sha256": "33e6aaee76614fd3160dcf3d33c0b2f265e037e08b1951326d6bfd61247df8ef",
+    "packaging_changed": false
+  },
+  {
+    "path": "reports/historical/AIRIMU_GPS_ESKF_5S_10S_REPRODUCTION.md",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/AIRIMU_GPS_ESKF_5S_10S_REPRODUCTION.md",
+    "source_sha256": "9cbe8cecc690cbbb7c9a3bd1ee10fde2e6942ad5af09960431f67f6df8d8594f",
+    "delivery_sha256": "9cbe8cecc690cbbb7c9a3bd1ee10fde2e6942ad5af09960431f67f6df8d8594f",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/pytest.ini",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/pytest.ini",
+    "source_sha256": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+    "delivery_sha256": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+    "packaging_changed": false
+  },
+  {
+    "path": "airimu/requirements-repro.txt",
+    "source_relative": "AirIMU-main_src-doc/AirIMU-main/requirements-repro.txt",
+    "source_sha256": "c9b8619e4c18eb02dfbe6b569dac5d2c4a16e21520e9f02d2c9a450d1dbdea2d",
+    "delivery_sha256": "c9b8619e4c18eb02dfbe6b569dac5d2c4a16e21520e9f02d2c9a450d1dbdea2d",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/GPS_IMU_EKF_runner.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/GPS_IMU_EKF_runner.py",
+    "source_sha256": "5e6db3c7237a26a844e3fbbdd69ec32756f14675a89e16eab5c1c858c2380339",
+    "delivery_sha256": "5e6db3c7237a26a844e3fbbdd69ec32756f14675a89e16eab5c1c858c2380339",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/IMUofflinerunner.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/IMUofflinerunner.py",
+    "source_sha256": "ad344f57783223e842c02960c2b37e1b865455693e34dc378e4b56962763419c",
+    "delivery_sha256": "ad344f57783223e842c02960c2b37e1b865455693e34dc378e4b56962763419c",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/IMUstate.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/IMUstate.py",
+    "source_sha256": "dd441e6ceb94dec9d77edc74dc763ab1bb1adaf86e61c110a78bac72a66145ba",
+    "delivery_sha256": "dd441e6ceb94dec9d77edc74dc763ab1bb1adaf86e61c110a78bac72a66145ba",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/MSCKF_runner.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/MSCKF_runner.py",
+    "source_sha256": "7fe9b7d91c182ac55625abeddffe0f669de74af971c37f6e7391e94e2eb40608",
+    "delivery_sha256": "7fe9b7d91c182ac55625abeddffe0f669de74af971c37f6e7391e94e2eb40608",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/__init__.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "delivery_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/ekf.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/ekf.py",
+    "source_sha256": "dafa3b69427cc1e7e42b33eb7bc41b14f55021f05eb43ab7043b5345c3971c21",
+    "delivery_sha256": "dafa3b69427cc1e7e42b33eb7bc41b14f55021f05eb43ab7043b5345c3971c21",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/ekfutil.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/ekfutil.py",
+    "source_sha256": "9b68c920ea56504c29c5859e83901296a54a538c5b7fafc30c37cb1713a148ec",
+    "delivery_sha256": "9b68c920ea56504c29c5859e83901296a54a538c5b7fafc30c37cb1713a148ec",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/EKF/msckf.py",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/EKF/msckf.py",
+    "source_sha256": "73cc93c3508fcaf60cfce8a0c2240810afdfbb61613fd6010a5365c712226ddd",
+    "delivery_sha256": "73cc93c3508fcaf60cfce8a0c2240810afdfbb61613fd6010a5365c712226ddd",
+    "packaging_changed": false
+  },
+  {
+    "path": "airio/requirements.upstream.txt",
+    "source_relative": "Air-IO-main_src-doc/Air-IO-main/requirements.txt",
+    "source_sha256": "206353ec510d5cdc2ada53ddac668a69f286ab9d1aa72bdeb1bf8b6c0eb853ff",
+    "delivery_sha256": "206353ec510d5cdc2ada53ddac668a69f286ab9d1aa72bdeb1bf8b6c0eb853ff",
+    "packaging_changed": false
+  }
+]

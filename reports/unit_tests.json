@@ -1,0 +1,14 @@
+[
+  {
+    "project": "airimu",
+    "command": "python -m pytest -q -p no:cacheprovider tests",
+    "exit_code": 0,
+    "summary": "17 passed, 1 warning in 2.00s"
+  },
+  {
+    "project": "airio",
+    "command": "python -m pytest -q -p no:cacheprovider tests",
+    "exit_code": 0,
+    "summary": "8 passed, 1 warning in 1.47s"
+  }
+]

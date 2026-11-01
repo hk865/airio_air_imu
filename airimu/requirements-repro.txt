@@ -1,0 +1,16 @@
+# Install a PyTorch build matching the local CUDA driver first.
+# The validated environment used torch 2.7.0; torch is intentionally not pinned
+# here because its installation command is hardware/platform dependent.
+numpy==1.26.4
+scipy==1.15.2
+h5py==3.14.0
+pypose==0.6.8
+pytorch-wavelets==1.3.0
+PyWavelets==1.8.0
+pyhocon==0.3.61
+pyproj==3.7.2
+matplotlib==3.11.0
+PyYAML==6.0.3
+tqdm==4.68.4
+tensorboard==2.20.0
+wandb==0.18.7

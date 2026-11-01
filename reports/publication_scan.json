@@ -1,0 +1,15 @@
+{
+  "scope": "all deliverable bytes and checkpoint pickle metadata; fixed credential and personal-path patterns, plus manual allowlist inspection",
+  "findings": [],
+  "python_syntax_files_passed": 94,
+  "checkpoint_metadata_scanned": 5,
+  "excluded": [
+    "original raw datasets",
+    "other project files",
+    "private resumes/photos",
+    "virtual environments",
+    "training logs",
+    "API/account credentials"
+  ],
+  "limitations": "pattern scanning cannot prove absence of every possible secret; allowlisted source and tensor payloads inspected"
+}

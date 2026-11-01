@@ -1,0 +1,360 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import numpy as np
+from pytorch_wavelets import DWT1DForward, DTCWTForward
+
+class WaveletBranchSeq(nn.Module):
+    """
+    复数小波分支 - 使用DTCWT提取复数域特征
+    """
+    def __init__(self, in_channels=6, J=3, hidden_dim=48, dropout=0.3):
+        super().__init__()
+        self.J = J
+        # 使用DTCWT复数小波变换
+        self.dtcwt = DTCWTForward(J=J, biort='near_sym_a', qshift='qshift_a')
+
+        # 实部编码器 - 使用LeakyReLU
+        self.real_convs = nn.ModuleList()
+        for _ in range(J):
+            self.real_convs.append(nn.Sequential(
+                nn.Conv1d(in_channels, 32, kernel_size=3, padding=1),
+                nn.LeakyReLU(0.1),
+                nn.Conv1d(32, hidden_dim, kernel_size=3, padding=1),
+                nn.LeakyReLU(0.1)
+            ))
+
+        # 虚部编码器 - 使用LeakyReLU
+        self.imag_convs = nn.ModuleList()
+        for _ in range(J):
+            self.imag_convs.append(nn.Sequential(
+                nn.Conv1d(in_channels, 32, kernel_size=3, padding=1),
+                nn.LeakyReLU(0.1),
+                nn.Conv1d(32, hidden_dim, kernel_size=3, padding=1),
+                nn.LeakyReLU(0.1)
+            ))
+
+        # 实部+虚部融合
+        self.fusion = nn.Sequential(
+            nn.Conv1d(hidden_dim * 2, hidden_dim, kernel_size=1),
+            nn.LeakyReLU(0.1)
+        )
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        x = x.permute(0, 2, 1)  # (B, C, T)
+        B, C, T = x.shape
+
+        # 复数小波分解
+        _, Yh = self.dtcwt(x)
+
+        level_feats = []
+        for j in range(self.J):
+            coeff = Yh[j]  # 复数张量
+            real_part = torch.real(coeff)  # (B, C, L_j)
+            imag_part = torch.imag(coeff)  # (B, C, L_j)
+
+            # 分别编码实部和虚部
+            real_feat = self.real_convs[j](real_part)  # (B, hidden_dim, L_j)
+            imag_feat = self.imag_convs[j](imag_part)  # (B, hidden_dim, L_j)
+
+            # 上采样回原始长度 T
+            real_up = F.interpolate(real_feat, size=T, mode='linear', align_corners=False)
+            imag_up = F.interpolate(imag_feat, size=T, mode='linear', align_corners=False)
+
+            # 拼接并融合
+            combined = torch.cat([real_up, imag_up], dim=1)  # (B, 2*hidden_dim, T)
+            fused = self.fusion(combined)  # (B, hidden_dim, T)
+            level_feats.append(fused)
+
+        # 多尺度特征求和
+        out = torch.stack(level_feats, dim=0).sum(dim=0)  # (B, hidden_dim, T)
+        out = self.dropout(out)
+        return out.permute(0, 2, 1)  # (B, T, hidden_dim)
+
+
+class DeepBranchSeq(nn.Module):
+    """
+    中等参数量深度分支
+    """
+    def __init__(self, in_channels=6, hidden_size=48, num_layers=1, out_dim=48,
+                 down_ratios=(2, 2), dropout=0.3):
+        super().__init__()
+        self.down_ratios = down_ratios
+        self.total_stride = 1
+        for r in down_ratios:
+            self.total_stride *= r
+
+        # 下采样卷积块
+        layers = []
+        ch = in_channels
+        for stride in down_ratios:
+            layers.append(nn.Conv1d(ch, ch * 2, kernel_size=5, stride=stride, padding=2))
+            layers.append(nn.BatchNorm1d(ch * 2))
+            layers.append(nn.ReLU(inplace=True))
+            layers.append(nn.Dropout(dropout))
+            ch = ch * 2
+        self.down_conv = nn.Sequential(*layers)
+
+        # LSTM
+        self.lstm = nn.LSTM(input_size=ch, hidden_size=hidden_size,
+                            num_layers=num_layers, batch_first=True,
+                            dropout=0)
+
+        self.fc_dropout = nn.Dropout(dropout)
+        self.fc = nn.Linear(hidden_size, out_dim)
+
+    def forward(self, x):
+        B, T, C = x.shape
+        x = x.permute(0, 2, 1)
+        x_down = self.down_conv(x)
+        x_down = x_down.permute(0, 2, 1)
+        lstm_out, _ = self.lstm(x_down)
+        lstm_out = lstm_out.permute(0, 2, 1)
+        up_out = F.interpolate(lstm_out, size=T, mode='linear', align_corners=False)
+        up_out = up_out.permute(0, 2, 1)
+        up_out = self.fc_dropout(up_out)
+        out = self.fc(up_out)
+        return out
+
+
+class FreqHybridModelMedium(nn.Module):
+    """
+    中等参数量版本 - 约400K参数，与CodeNet相当
+    """
+    def __init__(self, conf):
+        super().__init__()
+        self.conf = conf
+
+        input_dim = 6
+        # 中等隐藏维度
+        wavelet_out = 48
+        deep_hidden = 48
+        d_model = 64
+        output_dim = 3
+        dropout = getattr(conf, 'dropout', 0.3)
+
+        # 复数小波分支 - J=3减少参数量
+        self.wavelet_branch = WaveletBranchSeq(
+            in_channels=input_dim,
+            J=3, hidden_dim=wavelet_out, dropout=dropout
+        )
+
+        # 中等深度分支
+        self.deep_branch = DeepBranchSeq(
+            in_channels=input_dim, hidden_size=deep_hidden,
+            num_layers=1, out_dim=deep_hidden,
+            down_ratios=(2, 2), dropout=dropout
+        )
+
+        # 投影和融合
+        self.proj_w = nn.Linear(wavelet_out, d_model)
+        self.proj_d = nn.Linear(deep_hidden, d_model)
+        self.proj_drop = nn.Dropout(dropout)
+
+        # 门控融合
+        self.gate_linear = nn.Linear(2 * d_model, d_model)
+        self.sigmoid = nn.Sigmoid()
+        self.dropout = nn.Dropout(dropout)
+
+        # 时序建模 GRU - 与CodeNet一致
+        self.gru1 = nn.GRU(input_size=d_model, hidden_size=64,
+                           num_layers=1, batch_first=True, bidirectional=True)
+        self.gru2 = nn.GRU(input_size=128, hidden_size=64,
+                           num_layers=1, batch_first=True, bidirectional=True)
+
+        # 速度解码器
+        self.veldecoder = nn.Sequential(
+            nn.Linear(128, 64),
+            nn.GELU(),
+            nn.Linear(64, output_dim)
+        )
+
+        # 协方差解码器
+        self.velcov_decoder = nn.Sequential(
+            nn.Linear(128, 64),
+            nn.GELU(),
+            nn.Linear(64, output_dim)
+        )
+
+    def encoder(self, x):
+        """编码器：提取特征"""
+        # 双分支特征提取
+        w_feat = self.wavelet_branch(x)
+        d_feat = self.deep_branch(x)
+
+        # 投影到相同维度
+        w_feat = self.proj_w(w_feat)
+        d_feat = self.proj_d(d_feat)
+        w_feat = self.proj_drop(w_feat)
+        d_feat = self.proj_drop(d_feat)
+
+        # 门控融合
+        combined = torch.cat([w_feat, d_feat], dim=-1)
+        gate = self.sigmoid(self.gate_linear(combined))
+        fused = gate * w_feat + (1 - gate) * d_feat
+        fused = self.dropout(fused)
+
+        # 时序建模
+        x, _ = self.gru1(fused)
+        x, _ = self.gru2(x)
+        return x
+
+    def cov_decoder(self, x):
+        cov = torch.exp(self.velcov_decoder(x) - 5.0)
+        return cov
+
+    def decoder(self, x):
+        vel = self.veldecoder(x)
+        return vel
+
+    def get_label(self, gt_label):
+        """
+        对齐标签长度与模型输出长度
+        模型输出比输入少一个时间步
+        """
+        return gt_label[:, :-1, :]
+
+    def forward(self, data, rot=None):
+        feature = torch.cat([data["acc"], data["gyro"]], dim=-1)
+        feature = self.encoder(feature)
+        net_vel = self.decoder(feature)
+
+        cov = None
+        if self.conf.propcov:
+            cov = self.cov_decoder(feature)
+
+        return {"cov": cov, "net_vel": net_vel}
+
+
+class FreqHybridModelMediumRot(FreqHybridModelMedium):
+    """
+    中等参数量带旋转编码版本
+    """
+    def __init__(self, conf):
+        super().__init__(conf)
+        self.conf = conf
+
+        input_dim = 6
+        rot_dim = 3
+        wavelet_out = 48
+        deep_hidden = 48
+        d_model = 64
+        output_dim = 3
+        dropout = getattr(conf, 'dropout', 0.3)
+
+        # Mask参数
+        self.rot_mask_ratio = getattr(conf, 'rot_mask_ratio', 0.0)
+        self.rot_mask_value = getattr(conf, 'rot_mask_value', 0.0)
+
+        # IMU特征编码器
+        self.wavelet_branch = WaveletBranchSeq(
+            in_channels=input_dim,
+            J=3, hidden_dim=wavelet_out, dropout=dropout
+        )
+        self.deep_branch = DeepBranchSeq(
+            in_channels=input_dim, hidden_size=deep_hidden,
+            num_layers=1, out_dim=deep_hidden,
+            down_ratios=(3, 3), dropout=dropout
+        )
+
+        # 旋转特征编码器：仅深度分支
+        self.rot_encoder = DeepBranchSeq(
+            in_channels=rot_dim, hidden_size=deep_hidden,
+            num_layers=1, out_dim=deep_hidden,
+            down_ratios=(3, 3), dropout=dropout
+        )
+
+        # 投影层
+        self.proj_w = nn.Linear(wavelet_out, d_model)
+        self.proj_d = nn.Linear(deep_hidden, d_model)
+        self.proj_rot = nn.Linear(deep_hidden, d_model)
+        self.proj_drop = nn.Dropout(dropout)
+
+        # 融合层
+        self.fusion_fcn = nn.Sequential(
+            nn.Linear(d_model * 2, d_model),
+            nn.GELU()
+        )
+        self.fusion_bn = nn.BatchNorm1d(d_model)
+
+        # 时序建模 GRU - 与CodeNet一致
+        self.gru1 = nn.GRU(input_size=d_model, hidden_size=64,
+                           num_layers=1, batch_first=True, bidirectional=True)
+        self.gru2 = nn.GRU(input_size=128, hidden_size=64,
+                           num_layers=1, batch_first=True, bidirectional=True)
+
+        # 解码器
+        self.veldecoder = nn.Sequential(
+            nn.Linear(128, 64),
+            nn.GELU(),
+            nn.Linear(64, output_dim)
+        )
+
+        self.velcov_decoder = nn.Sequential(
+            nn.Linear(128, 64),
+            nn.GELU(),
+            nn.Linear(64, output_dim)
+        )
+
+    def apply_rot_mask(self, rot, mask_ratio=None):
+        if mask_ratio is None:
+            mask_ratio = self.rot_mask_ratio
+
+        if mask_ratio <= 0 or not self.training:
+            return rot, None
+
+        B, T, C = rot.shape
+        mask = torch.rand(B, T, device=rot.device) > mask_ratio
+        mask = mask.unsqueeze(-1).expand(-1, -1, C)
+        masked_rot = torch.where(mask, rot, torch.tensor(self.rot_mask_value, device=rot.device))
+        return masked_rot, mask
+
+    def encoder(self, feature, rot, mask_ratio=None):
+        """编码器"""
+        # IMU特征编码（双分支）
+        w_feat = self.wavelet_branch(feature)
+        d_feat = self.deep_branch(feature)
+        w_feat = self.proj_w(w_feat)
+        d_feat = self.proj_d(d_feat)
+
+        # IMU门控融合
+        combined_imu = torch.cat([w_feat, d_feat], dim=-1)
+        gate = torch.sigmoid(self.gate_linear(combined_imu))
+        imu_fused = gate * w_feat + (1 - gate) * d_feat
+        imu_fused = self.proj_drop(imu_fused)
+
+        # 旋转特征编码（仅深度分支，带mask）
+        if self.training and mask_ratio is not None:
+            rot, _ = self.apply_rot_mask(rot, mask_ratio)
+        elif self.training and self.rot_mask_ratio > 0:
+            rot, _ = self.apply_rot_mask(rot)
+
+        rot_feat = self.rot_encoder(rot)
+        rot_feat = self.proj_rot(rot_feat)
+
+        # 拼接IMU和旋转特征
+        combined = torch.cat([imu_fused, rot_feat], dim=-1)
+
+        # 融合降维
+        x = self.fusion_fcn(combined)
+        x = self.fusion_bn(x.transpose(-1, -2)).transpose(-1, -2)
+        x = F.gelu(x)
+
+        # 时序建模
+        x, _ = self.gru1(x)
+        x, _ = self.gru2(x)
+        return x
+
+    def forward(self, data, rot=None, mask_ratio=None):
+        assert rot is not None, "FreqHybridModelMediumRot requires rot input"
+
+        feature = torch.cat([data["acc"], data["gyro"]], dim=-1)
+        feature = self.encoder(feature, rot, mask_ratio)
+        net_vel = self.decoder(feature)
+
+        cov = None
+        if self.conf.propcov:
+            cov = self.cov_decoder(feature)
+
+        return {"cov": cov, "net_vel": net_vel}

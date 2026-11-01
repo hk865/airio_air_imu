@@ -1,0 +1,116 @@
+general: 
+  exp_dir: experiments/EuRoC/freqnet_phase_aware
+dataset: 
+  train: 
+    mode: train
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 10
+        data_root: data/EuRoC
+        data_drive: 
+          - V1_02_medium
+          - V2_01_easy
+          - V2_03_difficult
+          - MH_03_medium
+          - MH_05_difficult
+          - MH_01_easy
+  test: 
+    mode: test
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 200
+        data_root: data/EuRoC
+        data_drive: 
+          - V1_02_medium
+          - V2_01_easy
+          - V2_03_difficult
+          - MH_03_medium
+          - MH_05_difficult
+          - MH_01_easy
+  eval: 
+    mode: evaluate
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 200
+        data_root: data/EuRoC
+        data_drive: 
+          - MH_02_easy
+          - MH_04_difficult
+          - V1_03_difficult
+          - V2_02_medium
+          - V1_01_easy
+  inference: 
+    mode: evaluate
+    calib: false
+    data_list: 
+      - 
+        name: Euroc
+        window_size: 1000
+        step_size: 1000
+        data_root: data/EuRoC
+        data_drive: 
+          - MH_02_easy
+          - MH_04_difficult
+          - V1_03_difficult
+          - V2_02_medium
+          - V1_01_easy
+          - V1_02_medium
+          - V2_01_easy
+          - V2_03_difficult
+          - MH_03_medium
+          - MH_05_difficult
+          - MH_01_easy
+  collate: padding9
+train: 
+  lr: 0.001
+  weight_decay: 0.0001
+  batch_size: 128
+  min_lr: 1e-05
+  max_epoches: 100
+  patience: 10
+  factor: 0.5
+  save_freq: 5
+  eval_freq: 1
+  cov_weight: 0.0001
+  sampling: 50
+  gtinit: true
+  precision: float32
+  seed: 42
+  num_workers: 0
+  cpu_threads: 8
+  rot_weight: 1200.0
+  pos_weight: 100.0
+  vel_weight: 10.0
+  network: freqnet_phase_aware
+  gtrot: true
+  propcov: true
+  covaug: true
+  dropout: 0.2
+  wavelet: db4
+  wavelet_levels: 4
+  wavelet_hidden: 128
+  deep_hidden: 128
+  fusion_dim: 128
+  lstm_layers: 2
+  down_ratios: 
+    - 2
+    - 2
+  level_aggregation: sum
+  cov_logvar_offset: -5.0
+  cov_log_min: -18.0
+  cov_log_max: 10.0
+  loss: Huber_loss005
+  rotloss: Huber_loss005
+  eval_batch_size: 16
+  phase_tau: 0.5
+  phase_eps: 1e-06
+  quiet: true
